@@ -1,0 +1,26 @@
+body {
+    background-color: #000000;
+    opacity: 0.9;
+    background-image:  linear-gradient(30deg, #0e0f11 12%, transparent 12.5%, transparent 87%, #0e0f11 87.5%, #0e0f11), linear-gradient(150deg, #0e0f11 12%, transparent 12.5%, transparent 87%, #0e0f11 87.5%, #0e0f11), linear-gradient(30deg, #0e0f11 12%, transparent 12.5%, transparent 87%, #0e0f11 87.5%, #0e0f11), linear-gradient(150deg, #0e0f11 12%, transparent 12.5%, transparent 87%, #0e0f11 87.5%, #0e0f11), linear-gradient(60deg, #0e0f1177 25%, transparent 25.5%, transparent 75%, #0e0f1177 75%, #0e0f1177), linear-gradient(60deg, #0e0f1177 25%, transparent 25.5%, transparent 75%, #0e0f1177 75%, #0e0f1177);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+#login_centered {
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    display: block;
+    background: red;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 100px auto;
+    text-align: center;
+}
+#login_button {
+    margin: 20px 30px 20px 30px;
+    width: 150px;
+    height: 40px; 
+}
+
