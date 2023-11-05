@@ -9,6 +9,7 @@
         <title>login</title>
     </head>
     <body>
+		<?php session_start(); ?> <!-- session for user login -->
 		<div id="login_centered">
 			<h1>log in</h1>
 			<form>
